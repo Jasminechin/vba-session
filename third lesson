@@ -1,0 +1,32 @@
+Sub salesvolume()
+
+Dim i, sum as Single
+
+i = 1    //i is the counter, not the rows
+sum = 0
+
+Do While i <= 30
+sum = sum + Cells(i,1)
+i = i + 1
+Loop
+
+MsgBox ("The total sales is " & sum)
+
+End Sub
+
+
+
+Sum = 0
+For i = 1 to 30
+Sum = Sum + Cells (i,1)
+Next;
+
+
+Sub sequence()
+Dim x, sum, n As Single
+
+n = CSng(InputBox("n?"))
+x = 1
+sum = 0
+Do While x <= n
+sum = sum + x / x ^ 2 - 
