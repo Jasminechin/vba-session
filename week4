@@ -1,0 +1,23 @@
+#how to create 3*3 metrics
+
+Sub metrics()
+i = 1
+
+Do while i <= 3
+j = 1
+Do while j <= 3
+Cells(i, j)=Rnd
+j = j + 1
+Loop
+
+i = i + 1
+Loop
+
+End sub
+
+#bubble search
+
+i = 1
+Do while i < 8
+j = 149
+Do while j <= x
