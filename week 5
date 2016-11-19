@@ -1,0 +1,14 @@
+# record Macro
+
+Private Sub command()
+Call function1
+Call function2
+Call function3
+Call function4
+
+Worksheets("worksheet1").Activate
+
+End Sub
+
+# Create a bottom for activating
+Private Sub CommandButton1_Click()
